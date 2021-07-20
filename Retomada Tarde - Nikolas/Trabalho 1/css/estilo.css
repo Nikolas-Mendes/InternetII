@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@author "Nikolas Mendes";
+
+*{
+	font-family:verdana;
+}
+
+body{
+	background-color: #808080;
+}
+
+header{
+	text-align:center;
+	font-family:Copper, arial;
+	background-color:#A9A9A9;
+	border-radius:10px;
+	padding:20px;
+}
+
+nav{
+	font-family:Copper, arial;
+	background-color:#C0C0C0;
+	border-radius:10px;
+	padding:10px;
+}
+
+article{
+	background-color:#D3D3D3;
+	height:250px;
+	border-radius:10px;
+	padding:5px;
+}
+
+footer{
+	background-color:#DCDCDC;
+	padding:3px;
+	border-radius:10px;
+	width:300px;
+	text-align:center;
+	float:right;
+}
+
+.geral{
+	border-radius:10px;
+}
+
+.principal{
+	font-family: Cooper, verdana, arial;
+	color: #DCDCDC;
+	text-align: center;
+	text-shadow: 2px 2px 1px black;
+}
+
+

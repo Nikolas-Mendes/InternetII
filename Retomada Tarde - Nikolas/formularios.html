@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title>
+				Internet II - Formulários
+			</title>
+			<meta charset="UTF-8">
+			<meta name="description" content="Aulas de Internet II - Formulários">
+			<meta name="keywords" content="HTML, CSS, JS, Bootstrap, AngularJS">
+			<meta name="author" content="Nikolas Mendes - ********@gmail.com">
+			<link rel="shortcut icon" href="img/icon.png">
+			<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		</head>
+		<body>
+			<div class="geral">
+				<hr>
+				<h1 class="principal">
+					Internet II - Formulários
+				</h1>
+				<hr>
+				 
+				<p>
+					Os Formulários são utilizados para entrada de dados pessoais dos usuários.
+				</p>
+				<form method="post" action="" name="dados">
+					<fieldset class="maior">
+						<fieldset class="menor">
+							<legend> Dados Pessoais </legend>
+							<label> Nome: </label>
+							<input type="text" name="nome" size="30" required>
+							<br>
+							<label> Data de Nascimento: </label>
+							<input type="date" name="nascimento">
+							<br>
+							<label> Endereço: </label>
+							<input type="text" name="endereco" size="30" required="required">
+							&nbsp;&nbsp;&nbsp;
+							<label> N° </label>
+							<input type="number" name="numero" size="4" required="required">
+							<br>
+							<label> Cidade: </label>
+							<input type="text" name="cidade" size="20" required="required">
+							&nbsp;&nbsp;&nbsp;
+							<label> Estado: </label>
+							<select name="estado">
+								<option value="estado"> Selecione o Estado</option>
+								<option value="AC">Acre</option>
+								<option value="AL">Alagoas</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="DF">Distrito Federal</option>
+								<option value="ES">Espírito Santo</option>
+								<option value="GO">Goiás</option>
+								<option value="MA">Maranhão</option>
+								<option value="MT">Mato Grosso</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="PA">Pará</option>
+								<option value="PB">Paraíba</option>
+								<option value="PR">Paraná</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RJ">Rio de Janeiro</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="SC">Santa Catarina</option>
+								<option value="SP">São Paulo</option>
+								<option value="SE">Sergipe</option>
+								<option value="TO">Tocantins</option>
+							</select>
+							<br>
+							<label> E-mail: </label>
+							<input type="email" name="email" size="30" required="required">
+							&nbsp;&nbsp;&nbsp;
+							<label> Senha: </label>
+							<input type="password" name="senha" size="8" maxlength="10" required="required">
+							<br>
+							<label> Sexo: </label><br>
+							<input type="radio" name="sexo" value="f"> Feminino <br>
+							<input type="radio" name+"sexo" value="m"> Masculino <br>
+							<input type="radio" name="sexo" value="o"> Outro <br>
+							<label> Bens Pessoais: </label> <br>
+							<input type="checkbox" name="bens" value="casa">Casa <br>
+							<input type="checkbox" name="bens" value="carro">Carro <br>
+							<input type="checkbox" name="bens" value="bike">Bike <br>
+							<input type="checkbox" name="bens" value="patinete">Patinete <br>
+						</fieldset>
+						<fieldset class="menor">
+							<legend> Dados Profissionais </legend>
+							<label> Escolaridade: </label><br>
+								<select name="escola" size="3">
+									<option value="fundamental"> Fundamental </option>
+									<option value="medio"> Médio </option>
+									<option value="tecnico"> Técnico </option>
+									<option value="superior"> Superior </option>
+									<option value="pos"> Especialização </option>
+								</select> <br>
+							<label> Cursos: </label><br>
+								<textarea cols="20" rows="3" name="curso" placeholder="Digite aqui"></textarea><br>
+							<label> Currículo: </label>
+								<input type="file" name="curriculo">
+						</fieldset>
+						<br>
+						<input type="submit" value="Enviar" name="envia">&nbsp;&nbsp;
+						<input type="reset" value="Limpar" name="limpa">
+					</fieldset> <!--fecha maior-->
+				<a href="index.html"> Voltar ao Início</a> 
+			</div>
+		</body>
+	</html>

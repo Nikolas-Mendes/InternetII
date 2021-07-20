@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@author "Nikolas Mendes";
+
+.geral{
+	width:auto;
+	margin:auto;
+}
+
+body{
+	background-image:url(../img/ba.jpg);
+	width:100%;
+	height:auto;
+	font-family:Arial;
+	margin:0;
+	text-align:justify;
+	font-size:9px;
+}
+
+header{
+	background-image:url(../img/op.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+	height:180px;
+}
+
+nav{
+	background-color:#1C1C1C;
+	height:50px;
+	text-align:center;
+	padding:10px;
+	font-size:16px;
+	text-align:right;
+}
+
+.Titulo{
+	font-size:24px;
+	font-family:moderna;
+	width:200px;
+	float:left;
+	text-align:center;
+	color:White;
+}
+
+.menu ul li{
+	display:inline;
+	padding:10px;
+}
+
+.menu ul li a:link{
+	color:#ffffff;
+	text-decoration:none;	
+}
+
+.menu ul li a:hover{
+	color:#A9A9A9;
+	text-decoration:none;
+}
+
+figure img{
+	float:left;
+	border:2px solid black;
+	margin-left:-130px;
+	height:355px;
+	
+}
+
+aside{
+	float:left;
+	width:600px;
+	margin-left:35px;
+	border-radius:15px;
+	border:1px solid black;
+	padding:10px;
+	height:337px;
+}
+
+h2{
+	padding-right:300px;
+	font-size:18px;
+}
+
+p{
+	font-size:14px;
+}
+
+figure img .jack{
+	width:10px;
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+	<title> Waiges Legend </title>
+	<meta charset="utf-8">
+	<meta name="description" content="Waiges Legend - Site para comunidade dos jogadores de lol">
+	<meta name="keywords" content="lol, jogo, wiki, campeoes, habilidades.">
+	<meta name="author" content="Elias Oliveira, Nikolas Mendes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Secular+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  <!---Importando o css do Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--Importando o js para a página -->
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--Importando o JQuery-->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <!--CSS Próprio-->
+  <link rel="stylesheet" type="text/css" href="css/cssmenu.css">
+  <link rel="shortcut icon" href="img/icon.png">
+
+  <style>
+    body{
+      background-color:#010F17;
+    }
+
+  .botaotopo{
+  right:2px;
+	display:scroll;
+	position:fixed;
+	bottom:40px;
+   }
+  </style>
+  </head>
+  <body>
+<!-- cor do brabo #011A1D -->
+    <!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark align-center" id="cssmenu" style="margin-bottom:10px width:100%">-->
+    <nav id='cssmenu' class="align-center">
+     <ul>
+       <li><a href="index.html" class="scroll">Home</a></li>
+       <li><a href="#skills" class="scroll">Skills</a></li>
+       <li><a href="#skins" class="scroll">Skins</a></li>
+       <li><a href="#form" class="scroll">Form</a></li>
+     </ul>
+    </nav>
+
+<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel" style="width:800px; margin-left:270px">
+
+<div class="carousel-inner" role="listbox">
+  <div class="carousel-item active">
+    <video class="video-fluid" autoplay loop muted>
+      <source src="img/akali-login-theme.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="carousel-item">
+    <video class="video-fluid" autoplay loop muted>
+      <source src="img/jhin-login-theme.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="carousel-item">
+    <video class="video-fluid" autoplay loop muted>
+      <source src="img/ekko-login-theme.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="carousel-item">
+    <video class="video-fluid" autoplay loop muted>
+      <source src="img/kayn-login-theme.mp4" type="video/mp4" />
+    </video>
+  </div>
+</div>
+<!--/.Slides-->
+<!--Controls-->
+<a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+<!--/.Controls-->
+</div>
+<!--Carousel Wrapper-->
+  <hr style="border: 2px solid #D0AD2D; margin-bottom:25px; width:90%">
+<section id="skills">
+  <h1 class="display-4" style="text-align:center; color:#D0AD2D; margin-bottom:30px">SKILLS</h1>
+  <!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+<!--Controls-->
+<div class="controls-top">
+  <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+  <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+</div>
+<!--/.Controls-->
+
+<!--Indicadores que podem ser excluídos e alterar para as setas laterais-->
+<div class="carousel" data-interval="10000" style="margin-top:70px;">
+<ol class="carousel-indicators">
+  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+  <li data-target="#multi-item-example" data-slide-to="1"></li>
+  <li data-target="#multi-item-example" data-slide-to="2"></li>
+  <li data-target="#multi-item-example" data-slide-to="3"></li>
+</ol>
+</div>
+<!--/.Indicadores-->
+
+<div class="carousel-inner" role="listbox" style="background-color:#010F17; margin-bottom:-40px;">-->
+  <!--Akali Skills (tentei fazer um jumbotron pra expecificar que essas tão as skills da akali)-->
+
+  <div id="#skills" class="carousel-item active">
+    <div style="background-image: url(img/akali.jpg); color:#fff;" class="jumbotron container for-about">
+    <h1 class="display-4">Akali, a Assassina Renegada</h1>
+  </div>
+
+
+    <div class="card" style="width: 30rem; height: 35rem;float:left; margin-left:35px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/akali-q.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>GOLPE DOS CINCO PONTOS</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Akali atira cinco kunais, causando redução de velocidade e dano com base em seu Dano de Ataque adicional e Poder de Habilidade.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/akali-w.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>PROTEÇÃO DO CREPÚSCULO</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Akali solta uma proteção de fumaça e recebe Velocidade de Movimento por um curto período. Enquanto estiver dentro da proteção, Akali se torna invisível.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/akali-e.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px;  float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>INVESTIDA SHURIKEN</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Salta para trás e atira uma shuriken para frente, causando Dano Físico. O primeiro inimigo ou nuvem de fumaça que forem atingidos são marcados.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/akali-r.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>EXECUÇÃO PERFEITA</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Akali salta em uma direção, causando dano aos inimigos que atingir. Conjurar novamente: Akali avança em uma direção, executando todos os inimigos que atingir.</p>
+  </div>
+</div>
+  </div>
+  <!--/.Akali Skills-->
+
+  <!--Jhin Skills-->
+  <div class="carousel-item">
+    <div style="background-image: url(img/jhin.jpg); color:#fff;" class="jumbotron container for-about">
+    <h1 class="display-4">Jhin, o Virtuoso</h1>
+  </div>
+
+    <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:35px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/jhin-q.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>GRANADA DANÇANTE</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Jhin lança um cartucho mágico em um inimigo. Ele pode atingir até quatro alvos e acumula dano a cada vez que causa um abate.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/jhin-w.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>FLORESCER MORTAL</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Jhin brande sua bengala, fazendo um disparo único com incrível alcance. Ele atravessa tropas e monstros, mas para no primeiro Campeão atingido.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/jhin-e.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px;  float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>AUDIÊNCIA CATIVA</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Jhin posiciona uma armadilha invisível que floresce ao ser pisada. Reduz a velocidade de inimigos próximos antes de causar dano com uma explosão de pétalas serrilhadas.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+  <img class="card-img-top" src="img/jhin-r.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+  <div class="card-body">
+    <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>ACLAMAÇÃO</strong></h5>
+    <p class="card-text" style="text-align:center; margin-top:20px;">Jhin transforma a Sussurro em um mega-canhão de ombro. Ela faz 4 disparos com extremo alcance que atravessam tropas, e param no primeiro campeão atingido.</p>
+  </div>
+</div>
+  </div>
+  <!--/.Jhin Skills-->
+
+  <!--Ekko Skills-->
+  <div class="carousel-item">
+    <div style="background-image: url(img/ekko.jpg); color:#fff;" class="jumbotron container for-about">
+    <h1 class="display-4">Ekko, Rapaz que Estilhaçou o Tempo</h1>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:35px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/ekko-q.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>GIRATEMPO</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Ekko arremessa uma granada que expande ao atingir um Campeão inimigo, causa dano e reduz a velocidade de todos dentro da área. Após um intervalo, a granada retorna em direção a Ekko, causando dano na volta.</p>
+      </div>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/ekko-w.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>CONVERGÊNCIA PARALELA</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Os ataques básicos de Ekko causam Dano Mágico adicional aos inimigos com Vida baixa. Ekko pode conjurar Convergência Paralela para separar a linha do tempo, reduzindo a velocidade de inimigos pegos por ela.</p>
+      </div>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/ekko-e.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px;  float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>MERGULHO FÁSICO</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Ekko faz um rolamento evasivo enquanto carrega seu Revo-Z. Seu próximo ataque causa dano adicional e distorce a realidade, teleportando-o a seu alvo.</p>
+      </div>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/ekko-r.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>CRONOQUEBRA</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Ekko estilhaça sua linha do tempo, tornando-se inalvejável e rebobinando para um ponto mais favorável no tempo. Ele retorna para qualquer ponto que esteve nos últimos segundos e se cura.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--/.Ekko Skills-->
+  <div class="carousel-item">
+    <div style="background-image: url(img/kayn.jpg); color:#fff;" class="jumbotron container for-about">
+    <h1 class="display-4">Kayn, o Ceifador das Sombras</h1>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:35px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/kayn-q.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>CORTE CEIFADOR</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Kayn avança, e logo depois depois ataca. Ambos movimentos dão dano.</p>
+      </div>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/kayn-w.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>ALCANCE DA LÂMINA</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Kayn, ao repartir os inimibos, causa dano e reduz a velocidade dos alvos na linha de fogo.</p>
+      </div>
+  </div>
+
+  <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+    <img class="card-img-top" src="img/kayn-e.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px;  float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+      <div class="card-body">
+        <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>PASSO DAS SOMBRAS</strong></h5>
+        <p class="card-text" style="text-align:center; margin-top:20px;">Kayn fica imune ao impacto e pode atravessar terrenos rapidamente para ficar em um ponto mais favorável e assim, abater seu inimigo.</p>
+      </div>
+  </div>
+
+    <div class="card" style="width: 30rem; height: 35rem; float:left; margin-left:20px; background-color:#011A1D; color:#fff">
+      <img class="card-img-top" src="img/kayn-r.png" alt="Card image cap" style="width:150px; border-radius:20px 0px 20px 0px; float:left; margin-left:70px; margin-top:20px; border:2px solid #D0D0D0">
+        <div class="card-body">
+          <h5 class="card-title" style="color:#D0AD2D; text-align:center"><strong>TRANSGRESSÃO DO UMBRAL</strong></h5>
+          <p class="card-text" style="text-align:center; margin-top:20px;">Kayn se esconde no corpo de um inimigo e causa bastante dano quando rasga sua saída.</p>
+        </div>
+      </div>
+  </div>
+ </div>
+</div>
+</section>
+<hr style="border: 2px solid #D0AD2D; margin-top:80px; margin-bottom:25px; width:90%">
+<section id="skins">
+
+<div class="container">
+
+  <h1 id="#skins" class="font-weight-light text-center text-lg-center mt-4 mb-0" style="text-align:center; color:#D0AD2D; margin-bottom:30px">SKINS</h1>
+
+  <hr class="mt-2 mb-5" style="border: 1px solid #D0AD2D;">
+
+  <div class="row text-center text-lg-left">
+
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/akali-skin1.jpg" alt="skin akali">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/jhin-skin1.jpg" alt="skin jhin">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/ekko-skin1.jpg" alt="skin ekko">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/kayn-skin1.jpg" alt="skin kayn">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/akali-skin2.jpg" alt="skin akali">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/jhin-skin2.jpg" alt="skin jhin">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/ekko-skin2.jpg" alt="skin ekko">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/kayn-skin2.jpg" alt="skin kayn">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/akali-skin3.jpg" alt="skin akali">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/jhin-skin3.jpg" alt="skin jhin">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/ekko-skin3.jpg" alt="skin ekko">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/kayn-skin3.jpg" alt="skin kayn">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr style="border: 2px solid #D0AD2D; margin-top:80px; margin-bottom:40px; width:90%">
+
+<section id="form">
+  <div style="background-image: url(img/runeterra.png); color:#fff;" class="jumbotron container for-about">
+  <h1 class="display-4" style="text-align:center">FORM</h1>
+</div>
+  <p class="h4" style="text-align:center; color:#B4B4B4" style="margin-top:500px;"> Aqui você pode criar o seu próprio campeão, escolhendo suas habilidades, seu estilo de luta e a sua lane! </p>
+  <form>
+    <div style="width:20%; margin:0 auto; margin-bottom:85px">
+    <div class="form-group">
+      <label for="exampleFormControlInput1"></label>
+      <input type="text" class="form-control" style="width:100%; margin:0 auto " id="exampleFormControlInput1" placeholder="Nome do campeao">
+    </div>
+    <div class="form-group">
+      <select class="form-control" style="width:100%; margin:0 auto" id="exampleFormControlSelect1">
+        <option>Lane</option>
+        <option>Top</option>
+        <option>Jungle</option>
+        <option>Mid</option>
+        <option>Adc</option>
+        <option>Sup</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <select class="form-control" style="width:100%; margin:0 auto" id="exampleFormControlSelect1">
+        <option>Classe</option>
+        <option>Tanque</option>
+        <option>Lutador</option>
+        <option>Mago</option>
+        <option>Assassino</option>
+        <option>Atirador</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" style="width:100%; margin:0 auto;margin-bottom:10px" id="exampleFormControlTextarea1" rows="2" placeholder="Informacoes do campeao"></textarea>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="reset" class="btn btn-primary">Reset</button>
+      <div class="row">
+      	<a href="index.html" class="botaotopo scroll">
+          <img src="img/seta.png" alt="home" style="width:80px;">
+          </a>
+        </div>
+      <!--<input type="Button" style="width:20%; margin:0 auto;margin-bottom:100px; text-align:center" value="Enviar" onclick="verifica()">-->
+    </div>
+  </div>
+  </form>
+</section>
+
+<!--/.Carousel Wrapper-->
+
+  </body>
+</html>

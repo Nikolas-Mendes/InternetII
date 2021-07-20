@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@author "Nikolas Mendes";
+
+/*Formatando tudo: */
+*{
+	font-family:verdana;
+}
+
+body{
+	background-image: url(../img/ada.jpg);
+	background-repeat:no-repeat;
+	background-size:300%;
+}
+
+.principal{
+	font-family: Cooper, verdana, arial;
+	color: navy;
+	text-align: center;
+	text-shadow: 2px 2px 1px black;
+}
+
+a:link{
+	text-decoration:none;
+	color: #000;
+}
+a:visited{
+	color:gray;
+}
+a:hover{
+	letter-spacing:2px;
+	text-shadow:1px 1px 1px black;
+}
+
+p{
+	text-indent:25px;
+	line-height:1.5;
+}
+
+.esquerdo{
+	text-align:left;
+}
+.direito{
+	text-align:right;
+}
+.centro{
+	text-align:center;
+}
+.justificado{
+	text-align:justify;
+}
+.especial{
+	line-height:2;
+	margin:5px;
+	text-align:justify;
+	color: navy;
+	text-shadow: 1px 1px 2px silver;
+	background-color:#D3D3D3;
+	border-radius:20px;
+	padding:10px;
+	border: 2px red;
+	font-weight:bold;
+	font-style:italic;
+	border:5px dotted lightblue;
+}
+
+.arial{
+	font-family:arial;
+}
+.verdana{
+	font-family:verdana;
+}
+.tamanho10px{
+	font-size:10px;
+}
+.tamanho10pt{
+	font-size:10pt;
+}
+.tamanho1em{
+	font-size:1em;
+}
+.vermelho{
+	color:red;
+}
+.azul{
+	color:blue;
+}
+.sombra{
+	text-shadow:1px 1px 1px gray;
+}
+.versalete{
+	font-variant:small-caps;
+}
+.maiusculo{
+	text-transform:uppercase;
+}
+.minusculo{
+	text-transform:lowercase;
+}
+.negrito{
+	font-weight:bold;
+}
+
+.imagem{
+	width:250px;
+	float:right;
+	padding:10px;
+	margin:10px;
+	border:2px solid black;
+}
+
+.imagem img{
+	width:100%;
+}
+
+.imagem2{
+	width:200px;
+	margin:0 auto;/*centraliza imagens*/
+}
+
+.imagem2 img{
+	width:100%
+}
+
+.fundo{
+	background-image:url(../img/a.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+.listaordem{
+	list-style-type:upper-alpha;
+}
+
+.lista{
+	list-style-type:square;
+	/*list-style-image:url(../img/icon.png); Para colocar imagens*/
+	/*list-style-position:inside; Para a imagem ficar no lugar certo*/
+}
+
+.menu{
+	list-style-type:none;
+}
+
+.menu li{
+	display:inline;
+	padding: 12px;
+}
+
+table, tr, td, th{
+	border:2px solid black;
+	border-spacing:0;
+}
+table{
+	border:2px solid black;
+	margin: 0 auto;
+	border-collapse: collapse; /*retira bordas duplas*/
+}
+tr,th,td{
+	width:130px;
+	height:45px;
+	text-align:center;
+}
+
+/*Formatando a página Formulários*/
+legend{
+	font-weight:bold;
+}
+.maior{
+	width:80%;
+	margin:0 auto;
+	border-radius:20px;
+	background-color:rgba(255,255,255,0.4);
+}
+.menor{
+	border-radius:20px;
+}
+input, select, textarea{
+	border-radius:5px;
+	margin:5px;
+	padding:5px;
+}
+input:focus, select:focus, textarea:focus{
+	background-color:lightgray;
+	padding:7px;
+}
+input:hover, select:hover, textarea:hover{
+	border:1px solid orange;
+}
+
+

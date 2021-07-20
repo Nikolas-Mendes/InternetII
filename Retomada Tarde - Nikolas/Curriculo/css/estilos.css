@@ -1,0 +1,38 @@
+*{
+	font-family:Verdana;
+}
+body{
+	background-image: url(../img/ada.jpg);
+	background-repeat:no-repeat;
+	background-size:300%;
+	margin-left:30px;
+}
+
+.direita{
+	float:right;
+	width:200px;
+	background-size:20%;
+}
+
+.direita img{
+	width:120px;
+	float:right;
+}
+
+p{
+	width:70%;
+}
+
+article{
+	float:left;
+}
+
+.aa{
+	width:80%;
+	float:left;
+}
+
+.aham{
+	background-image: url(../img/alan.jpg);
+	float:right;
+}

@@ -1,0 +1,15 @@
+Desenvolver uma página que liste ao menos 6 tags foram descontinuadas do HTML5.
+A página deverá conter as devidas metas tags - de acordo com o assunto.
+
+Deverá ter um title
+e uma lista com as tags.
+Exemplo:
+
+. <u> = Sublinhado - A tag foi substituida pela tag <ins> 
+Exemplo: &lt;ins> <ins> PALAVRA </ins> </ins>
+
+Citação com seu nome - alinhado à direito.
+E-mail também alinhado a direito (com tag e-mail).
+CSS - externo - entregar segunda - 10/02 - até o intervalo.
+
+Validador: http://validator.w3.org/
